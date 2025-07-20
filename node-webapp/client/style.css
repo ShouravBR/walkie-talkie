@@ -1,0 +1,41 @@
+.hidden {
+  display: none;
+  color: red;
+}
+
+#speakerIcon {
+  font-size: 2rem;
+  color: white;
+}
+
+#speakerWaves {
+  color: lightgreen;
+  margin-left: 4px;
+}
+
+#micBtn {
+  font-size: 2rem;
+  background-color: "none";
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#micBtn.recording {
+  background-color: #444;
+}
+
+#micBtn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+#statusStar {
+  color: red;
+  font-weight: bold;
+}
