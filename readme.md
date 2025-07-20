@@ -3,7 +3,7 @@
 Simple real-time push-to-talk voice chat using WebSockets and Node.js.
 
 ## 🐳 Run with Docker
-
+Build container and start node server at localhost:3000
 ```bash
 docker-compose up
 ```
@@ -22,8 +22,6 @@ docker-compose up
 ## 🛠️ System Design Overview
 
 ```mermaid
-
-
 flowchart LR
 
 Client1[🎙️User] -->|audio/webm| Server[Node.JS + Websockets]
